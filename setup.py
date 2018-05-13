@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name='DFCompare',
-    version='0.1',
+    version='0.1.1',
     description='Compare pandas DataFrames.',
     long_description='Compare pandas DataFrames.',
     keywords=[

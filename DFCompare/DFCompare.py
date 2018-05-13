@@ -42,7 +42,7 @@ class DFCompare(object):
         dtypes.columns = pd.MultiIndex.from_tuples(
             [('Column', ''), ('dtype', 'base'), ('dtype', 'data')]
         )
-        dtypes[('', 'match')] = (dtypes.dtype.base == dtypes.dtype.data)
+        dtypes[('dtype', 'match')] = (dtypes.dtype.base == dtypes.dtype.data)
         return dtypes
     
     def rows_not_in(self, data):
