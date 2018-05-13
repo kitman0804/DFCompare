@@ -25,7 +25,7 @@ Required packages:
 1. Run the follow command.
 
 ```
-pip install git+https://github.com/kitman0804/.git
+pip install git+https://github.com/kitman0804/DFCompare.git
 ```
 
 **Method 2:**
